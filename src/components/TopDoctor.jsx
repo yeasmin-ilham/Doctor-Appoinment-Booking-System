@@ -1,10 +1,11 @@
-import React from 'react'
-import {DoctorInfo } from '../assets/assets.js'
+import React, { useContext } from 'react'
+import { AppContext } from '../context/AppContext';
 import { useNavigate } from 'react-router-dom'
 
 const TopDoctor = () => {
 
   const navigate = useNavigate();
+  const {DoctorInfo} = useContext(AppContext)
   
   return (
     <div className='flex flex-col items-center gap-4 my-12 text-gray-900 md:mx-10'>
