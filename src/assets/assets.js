@@ -16,6 +16,11 @@ import doc7 from "../assets/doc7.png"
 import doc8 from "../assets/doc8.png"
 import doc9 from "../assets/doc9.png"
 import doc10 from "../assets/doc10.png"
+import doc11 from "../assets/doc11.png"
+import doc12 from "../assets/doc12.png"
+import doc13 from "../assets/doc13.png"
+import doc14 from "../assets/doc14.png"
+import doc15 from "../assets/doc15.png"
 
 export const specialityData= [
     {
@@ -41,7 +46,8 @@ export const specialityData= [
     {
        speciality: 'Gastroenterologist',
        image:gastronent
-    }
+    },
+
 ]
 
 
@@ -120,4 +126,41 @@ export const DoctorInfo = [
       speciality:'Dermatologist'
       
    },
+
+      {  image: doc11,
+      _id:'doc11',
+      active:'Available',
+      name:'Dr. Farjana Yeasmin',
+      speciality:'Dermatologist'
+      
+   },
+      {  image: doc12,
+      _id:'doc12',
+      active:'Available',
+      name:'Dr. Afsana Sweety',
+      speciality:'Dermatologist'
+      
+   },
+      {  image: doc13,
+      _id:'doc13',
+      active:'Available',
+      name:'Dr. Ismam Tahsin',
+      speciality:'Dermatologist'
+      
+   },
+      {  image: doc14,
+      _id:'doc14',
+      active:'Available',
+      name:'Dr. Brown Rahman',
+      speciality:'Dermatologist'
+      
+   },
+      {  image: doc15,
+      _id:'doc15',
+      active:'Available',
+      name:'Dr. Diyanat Chuowdory',
+      speciality:'Dermatologist'
+      
+   },
+
 ]
