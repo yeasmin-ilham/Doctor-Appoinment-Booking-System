@@ -31,7 +31,7 @@ const Footer = () => {
              <p className='font-medium'>Contact</p>
          <ul className='text-gray-500 text-sm max-w-sm'>
             <li>+358-857-45</li>
-            <li>farjanayeasminilham@gmail.com</li>
+            <li>ilham@gmail.com</li>
          </ul>
         </div>
         </div>

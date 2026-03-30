@@ -1,18 +1,16 @@
-import React from "react";
-import  { useContext } from 'react'
+import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext';
 import { useNavigate } from 'react-router-dom'
 
+const Doctors = () => {
 
-const Doctors = () =>{
-
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   const {DoctorInfo} = useContext(AppContext)
-
-  return(
-        <div className='flex flex-col items-center gap-4 my-12 text-gray-900 md:mx-10'>
-        <h1 className='text-3xl font-medium '>Top Doctors to Book</h1> 
-        <p className='sm:w-1/3 text-center text-sm '>Simply browse through our extensive list of trusted doctors.</p>
+  
+  return (
+    <div className='flex flex-col items-center gap-4 my-12 text-gray-900 md:mx-10'>
+        <h1 className='text-3xl font-medium'>Doctors Directory</h1> 
+        <p className='sm:w-1/3 text-center text-sm '>Search and connect with trusted doctors based on your needs, specialty, and preferred schedule.</p>
               
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 flex-wrap gap-4 pt-5 space-y-6 px-3 sm:px-0'>
                {DoctorInfo.map((data, index) =>(
