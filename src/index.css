@@ -9,3 +9,13 @@
 ::-webkit-scrollbar{
     @apply hidden
 }
+
+:root {
+--color-primary: #006B75;
+--color-secondary:  #9333EA;
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+}

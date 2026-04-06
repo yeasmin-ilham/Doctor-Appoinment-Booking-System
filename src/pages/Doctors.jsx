@@ -8,8 +8,9 @@ const Doctors = () => {
   const {DoctorInfo} = useContext(AppContext)
   
   return (
-    <div className='flex flex-col items-center gap-4 my-12 text-gray-900 md:mx-10'>
-        <h1 className='text-3xl font-medium'>Doctors Directory</h1> 
+<div className='min-h-screen'>
+    <section className=' max-w-7xl px-4 mt-5 mb-12 flex flex-col items-center gap-4  text-gray-900 mx-auto'>
+        <h1 className='text-3xl font-medium font-sans'>Doctors Directory</h1> 
         <p className='sm:w-1/3 text-center text-sm '>Search and connect with trusted doctors based on your needs, specialty, and preferred schedule.</p>
               
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 flex-wrap gap-4 pt-5 space-y-6 px-3 sm:px-0'>
@@ -28,7 +29,8 @@ const Doctors = () => {
             ))}
       
           </div>
-    </div>
+    </section>
+</div>
   )
 }
 
