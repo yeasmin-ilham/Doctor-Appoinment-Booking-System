@@ -1,19 +1,20 @@
 import React from "react";
+import all from "../assets/all.jpg"
 
 const Contact = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen mb-11">
 
 
       {/* Hero Section */}
       <div className="relative h-[300px] bg-gray-300 flex items-center justify-center">
         <img
-          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+          src={all}
           alt="hero"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
 
-        <h1 className="relative text-4xl font-bold text-gray-800">
+        <h1 className="absolute text-4xl font-bold text-gray-800 opacity-95 italic">
           Contact Us
         </h1>
       </div>
@@ -22,7 +23,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10">
 
         {/* Left Side */}
-        <div>
+        <div className="flex flex-col justify-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
             Let's talk with us
           </h2>
