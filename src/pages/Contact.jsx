@@ -54,7 +54,7 @@ const Contact = () => {
         </div>
 
         {/* Right Form */}
-        <div className="bg-white rounded-xl shadow-lg drop-shadow-xl p-6 ">
+        <div className="bg-white rounded-xl shadow-lg  p-6 ">
 
           <form className="space-y-4">
 
