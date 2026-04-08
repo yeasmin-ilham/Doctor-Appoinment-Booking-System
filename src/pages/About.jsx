@@ -4,7 +4,7 @@ import bro from "../assets/bro.png"
 
 const About = () => {
   return (
-    <section className='bg-primary mx-auto px-4 mb-10'>
+    <section className='bg-primary mx-auto px-4 mb-11'>
       <div className=' pl-6 md:pl-12 lg:pl-20 py-15'>
         <p className='text-yellow-400 text-xl font-medium'>~     WHO WE ARE</p>
         <p className='mt-12 text-white font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-tight'>We Help To Get You Well.</p>
