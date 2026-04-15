@@ -99,8 +99,8 @@ export default function LoginForm() {
             {/* Register Button */}
             <button
               onClick={handleSubmit}
-              className="w-full rounded-xl   bg-gradient-start py-3.5 text-sm font-semibold tracking-wide text-white transition-all hover:bg-[#8168ac] active:scale-[0.98]"
-            >
+              className="w-full rounded-xl   bg-gradient-start py-3.5 text-sm font-semibold tracking-wide text-white transition-all hover:bg-[#8168ac] active:scale-[0.98] cursor-pointer"
+              >
               Register
             </button>
           </div>
