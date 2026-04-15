@@ -15,9 +15,9 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="flex min-h-screen overflow-hidden font-sans">
+    <div className="flex min-h-screen overflow-hidden font-sans mb-11">
       {/* Left Panel */}
-      <div className="relative flex w-[56%] flex-col items-center justify-center bg-gradient-to-r from-[#815dc0] to-[#FBCFE8] overflow-hidden">
+      <div className="relative flex w-[56%] flex-col items-center justify-center bg-gradient-to-r from-gradient-start to-gradient-end overflow-hidden">
         {/* Decorative Circles — top right */}
         <div className="pointer-events-none absolute -top-32 -right-32">
           <div className="h-[420px] w-[420px] rounded-full border border-white/10" />
@@ -41,7 +41,7 @@ export default function LoginForm() {
       <div className="flex w-[44%] flex-col items-center justify-center bg-white px-12">
         <div className="w-full max-w-sm">
           {/* Heading */}
-          <h2 className="mb-1 text-3xl font-bold text-[#7559a5]">Hello!</h2>
+          <h2 className="mb-1 text-3xl font-bold text-gradient-start">Hello!</h2>
           <p className="mb-8 text-sm text-gray-500">Sign Up to Get Started</p>
 
           {/* Form */}
@@ -99,7 +99,7 @@ export default function LoginForm() {
             {/* Register Button */}
             <button
               onClick={handleSubmit}
-              className="w-full rounded-xl   bg-[#7559a5] py-3.5 text-sm font-semibold tracking-wide text-white transition-all hover:bg-[#8168ac] active:scale-[0.98]"
+              className="w-full rounded-xl   bg-gradient-start py-3.5 text-sm font-semibold tracking-wide text-white transition-all hover:bg-[#8168ac] active:scale-[0.98]"
             >
               Register
             </button>

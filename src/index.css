@@ -13,9 +13,13 @@
 :root {
 --color-primary: #006B75;
 --color-secondary:  #1d9aaa;
+--color-gradient-start : #815dc0;
+--color-gradient-end: #FBCFE8;
 }
 
 @theme {
   --color-primary: var(--color-primary);
   --color-secondary: var(--color-secondary);
+  --color-gradient-start: var(--color-gradient-start);
+  --color-gradient-end: var(--color-gradient-end)
 }
